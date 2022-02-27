@@ -1,0 +1,32 @@
+void main() {
+  print("|..............Mark Sheet......|");
+  print ("Subject   | MaxMarks|obt Marks");
+  num maths = 19;
+  num eng = 23.5;
+  num urdu = 23;
+  num isl = 23.3;
+  num chem = 23.5;
+  num bio = 24.5;
+  num physics =  25;
+  num max = 25;
+  num total = 175;
+  print("Maths     |   $max    |    $maths");
+  print("English   |   $max    |    $eng ");
+  print("Urdu      |   $max    |    $urdu");
+  print("Islamiat  |   $max    |    $isl ");
+  print("Chemistry |   $max    |    $chem");
+  print("Physics   |   $max    |    $physics ");
+  print("Biology   |   $max    |    $bio ");
+  print(                                   total                            );
+  num obt = maths + urdu + isl + chem + bio + physics + eng ;
+  num percent = (obt*100)~/total;
+  print (percent);
+  var num1 = 14;
+  var num2 = 15;
+  if (num1>num2){
+    print("num1 is less than num2");
+  }else{
+    print("num1 is grater than num2");
+  }
+}
+  
